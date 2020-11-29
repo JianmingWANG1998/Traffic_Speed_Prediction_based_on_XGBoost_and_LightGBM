@@ -5,7 +5,7 @@ Evaluation Metric: the mean-squared error
 ## Programming Languages and Required Packages
 * Development Environment: Anaconda-Jupyter-notebook
 * Programming Language: Python3.7
-* Required Packages: math numpy pandas sklearn scipy datetime xgboost lightgbm
+* Required Packages: math, numpy, pandas, sklearn, scipy, datetime, xgboost, lightgbm
 
 ## Prediction Model 
 In this project, I used XGBoost regression model and LightGBM regression model to do prediction about the traffic speed. In my implemenetation, there are four main parts. The first one is doing the data preprocessing with training set and test set. The second one is about feature engineering which helps us find the potential relationship between the traffic speed and other factors. For example, the timestamp is whether weeekend or work day, or whether working hoLightGBM--Step by Step to Use GridSearchurs or non-working hours. The third one is training Models which contains XGboost (Directly Use RandomizedSearch), XGboost (Step by Step to Use GridSearch) and LightGBM (Step by Step to Use GridSearch). The last one is doing the prediction by using the best parameters found by the above tuning methods and saving the result into test.csv.  
