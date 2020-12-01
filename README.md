@@ -31,6 +31,7 @@ Traffic_Speed_Prediction_based_on_XGBoost_and_LightGBM.ipynb
 ├── LightGBM--Step by Step to Use GridSearch
 └── LightGBM--Step by Step to Use GridSearch--Prediction and Output
 ```
+The best parameters is found in the XGboost--Step by Step to Use GridSearch section. My result will be reproduced by executing these four blocks: Initiate Training Set and Test Set: Basic Data Preprocessing, Feature Engineering, Dividing Training Dataset and XGboost--Step by Step to Use GridSearch--Prediction and Output block. 
 
 2. The resulting test.csv file. This should be identical to your final submission.
 
