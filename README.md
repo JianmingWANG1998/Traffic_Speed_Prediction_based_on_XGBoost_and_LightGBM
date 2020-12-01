@@ -19,6 +19,18 @@ In this project, I used XGBoost regression model and LightGBM regression model t
 
 ## Result:
 1. how to run it to reproduce my result:
+```
+Traffic_Speed_Prediction_based_on_XGBoost_and_LightGBM.ipynb
+├── Initiate Training Set and Test Set: Basic Data Preprocessing
+├── Feature Engineering
+├── Dividing Training Dataset
+├── XGboost--Directly Use RandomizedSearch
+├── XGboost--Directly Use RandomizedSearch--Prediction and Output
+├── XGboost--Step by Step to Use GridSearch
+├── XGboost--Step by Step to Use GridSearch--Prediction and Output
+├── LightGBM--Step by Step to Use GridSearch
+└── LightGBM--Step by Step to Use GridSearch--Prediction and Output
+```
 
 2. The resulting test.csv file. This should be identical to your final submission.
 
